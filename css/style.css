@@ -82,7 +82,7 @@ body {
   margin-left: 0.4rem;
 }
 
-.link-icon[id="arrow-up"] {
+.link-icon.arrow-up {
   display: none;
 }
 
@@ -133,11 +133,11 @@ body {
   padding: 2.4rem 2.2rem;
 }
 
-.nav-list li:hover .link-icon[id="arrow-up"] {
+.nav-list li:hover .link-icon.arrow-up {
   display: inline-block;
 }
 
-.nav-list li:hover .link-icon[id="arrow-down"] {
+.nav-list li:hover .link-icon.arrow-down {
   display: none;
 }
 
