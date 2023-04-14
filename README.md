@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-intro-section-with-dropdown-nav-built-with-flexbox-and-grid-Cb96KuFU6H)
 - Live Site URL: [Intro Section with Dropdown Nav](https://intro-dropdown-nav-alejandro.netlify.app)
 
 ## My process
