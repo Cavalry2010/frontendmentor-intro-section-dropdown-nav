@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="overlay hidden"></div>
+    <header class="nav-header">
+      <a href="#"><img class="logo" src="./images/logo.svg" alt="Snap" /></a>
+      <div class="navigation">
+        <ul class="nav-list">
+          <li>
+            <a class="link nav-link"
+              >Features
+              <img
+                id="arrow-up"
+                class="link-icon"
+                src="./images/icon-arrow-up.svg"
+                alt="" />
+              <img
+                id="arrow-down"
+                class="link-icon"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+            /></a>
+            <div class="link-dropdown">
+              <img
+                class="link-icon"
+                src="./images/icon-todo.svg"
+                alt="Notebook"
+              />
+              <p>
+                <a class="link drop-link" href="#"> Todo List</a>
+              </p>
+
+              <img
+                class="link-icon"
+                src="./images/icon-calendar.svg"
+                alt="Calendar"
+              />
+              <p>
+                <a class="link drop-link" href="#"> Calendar</a>
+              </p>
+
+              <img
+                class="link-icon"
+                src="./images/icon-reminders.svg"
+                alt="Bell"
+              />
+              <p>
+                <a class="link drop-link" href="#"> Reminders</a>
+              </p>
+
+              <img
+                class="link-icon"
+                src="./images/icon-planning.svg"
+                alt="Clock"
+              />
+
+              <p>
+                <a class="link drop-link" href="#"> Planning</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <a class="link nav-link"
+              >Company
+              <img
+                id="arrow-up"
+                class="link-icon"
+                src="./images/icon-arrow-up.svg"
+                alt=""
+              />
+              <img
+                id="arrow-down"
+                class="link-icon"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+              />
+            </a>
+            <div class="link-dropdown">
+              <a class="link" href="#">History</a>
+
+              <a class="link" href="#">Our Team</a>
+
+              <a class="link" href="#">Blog</a>
+            </div>
+          </li>
+          <li>
+            <a class="link nav-link" href="#">Careers</a>
+          </li>
+          <li>
+            <a class="link nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="account-login">
+          <a class="link" href="#">Login</a>
+          <a class="link register-link" href="#">Register</a>
+        </div>
+      </div>
+      <button
+        class="nav-mobile-btn"
+        type="button"
+        aria-label="Open/Close Mobile Nav"
+      >
+        <img
+          class="btn-icon"
+          src="./images/icon-menu.svg"
+          alt=""
+          id="open-nav"
+        />
+        <img
+          class="btn-icon"
+          src="./images/icon-close-menu.svg"
+          alt=""
+          id="close-nav"
+        />
+      </button>
+    </header>
+    <main>
+      <div class="container align-center">
+        <div class="hero-section">
+          <div class="hero-introduction">
+            <h1 class="hero-heading">Make remote work</h1>
+            <p class="hero-text">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <a class="link learn-more-link" href="#">Learn more</a>
+            <div class="clients">
+              <img src="./images/client-databiz.svg" alt="databiz" />
+              <img src="./images/client-audiophile.svg" alt="audiophile" />
+              <img src="./images/client-meet.svg" alt="meet" />
+              <img src="./images/client-maker.svg" alt="maker" />
+            </div>
+          </div>
+          <div
+            class="hero-img"
+            role="img"
+            aria-label="Young man working remotely on his laptop"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </div>
+    </footer>
+  </body>
+</html>
